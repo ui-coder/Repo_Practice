@@ -1,5 +1,5 @@
-@import url(custom.css);
-
+@import url(custom.css
+  
 table {
     border: 1px solid red;
     width: 500px;
@@ -11,3 +11,4 @@ td {
 th {
     border: 1px solid black;
 }
+
