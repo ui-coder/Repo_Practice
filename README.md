@@ -1,3 +1,3 @@
 # Repo_Practice    
 __________________________  
-(c)2020 Built by ![htmlstrap](./img/my-logo.png =100x150)
+(c)2020 Built by ![htmlstrap](./img/my-logo.png)
