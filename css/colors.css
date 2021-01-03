@@ -194,27 +194,27 @@
 }
 
 .bdr-primary {
-    border: var(--bdr-primary);
+    border-color: var(--bdr-primary);
 }
 
 .bdr-secondary {
-    border: var(--bdr-default);
+    border-color: var(--bdr-default);
 }
 
 .bdr-success {
-    border: var(--bdr-success);
+    border-color: var(--bdr-success);
 }
 
 .bdr-info {
-    border: var(--bdr-info);
+    border-color: var(--bdr-info);
 }
 
 .bdr-warning {
-    border: var(--bdr-warning);
+    border-color: var(--bdr-warning);
 }
 
 .bdr-danger {
-    border: var(--bdr-danger);
+    border-color: var(--bdr-danger);
 }
 
 
