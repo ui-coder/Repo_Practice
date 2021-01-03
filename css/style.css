@@ -1,4 +1,17 @@
 @import url(custom.css);
+  
+table {
+    border: 1px solid red;
+    width: 500px;
+    height: 150px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+
 
 /*==========================
     Current Code
@@ -15,3 +28,5 @@
 .w100 {
     width: 950px;
 }
+
+
