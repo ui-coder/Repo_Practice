@@ -75,7 +75,7 @@
     --txt-info: #044995;
     --txt-warning: #735100;
     --txt-danger: #780D00;
-    --txt-inverse: #ffffff;
+    --txt-invert: #ffffff;
     --txt-muted: #a8a8a8;
     /* Alerts & Panels */
     --lrt-default: #eeeeee;
@@ -130,8 +130,8 @@
     --light: #f8f9fa;
     --dark: #343a40;
     --muted: #92999f;
-    --link: #3674bb; 
-    --wheat:#f5deb3;
+    --link: #3674bb;
+    --wheat: #f5deb3;
     /*--------------------*/
     --color: var(--color);
     /* same as : initial; */
@@ -259,7 +259,7 @@
     --z-modal-backdrop: 1040 !default;
     --z-modal: 1050 !default;
     --z-popover: 1060 !default;
-    --z-tooltip: 1070 !default;    
+    --z-tooltip: 1070 !default;
     /* 
         Background image (Parallax)
     --------------------------------------------*/
