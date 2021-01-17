@@ -1,1 +1,4 @@
-@import url(../css/root/custom-props.css);
+@import url(colors.css);
+:root {
+    --bg-img: url("../img/thought-catalog-2400-unsplash.jpg");
+}
