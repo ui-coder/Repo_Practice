@@ -469,7 +469,7 @@ button.close {
     font-size: 18px;
 }
 
-[class$="cell"] {
+[class*="cell"] {
     padding: 10px;
 }
 
