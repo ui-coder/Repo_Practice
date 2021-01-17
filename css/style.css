@@ -1,13 +1,14 @@
 @import url(custom.css);
-  
 table {
     border: 1px solid red;
     width: 500px;
     height: 150px;
 }
+
 td {
     border: 1px solid black;
 }
+
 th {
     border: 1px solid black;
 }
@@ -29,4 +30,9 @@ th {
     width: 950px;
 }
 
-
+.jumbo {
+    background: var(--bg-img) var(--parallax);
+    height: 100vh;
+    width: 100vw;
+    margin-top: calc(- var(--gap));
+}
