@@ -140,9 +140,9 @@
 [class*="no-bdr-"] {
     border: 1px solid !important;
     width: 100px;
-    height: 100px;
+    height: auto;
     margin: var(--outer);
-    padding: var(--inner);
+    padding: var(--gap);
 }
 
 .bdr-all {
@@ -194,27 +194,27 @@
 }
 
 .bdr-primary {
-    border: var(--bdr-primary);
+    border-color: var(--bdr-primary);
 }
 
 .bdr-secondary {
-    border: var(--bdr-default);
+    border-color: var(--bdr-default);
 }
 
 .bdr-success {
-    border: var(--bdr-success);
+    border-color: var(--bdr-success);
 }
 
 .bdr-info {
-    border: var(--bdr-info);
+    border-color: var(--bdr-info);
 }
 
 .bdr-warning {
-    border: var(--bdr-warning);
+    border-color: var(--bdr-warning);
 }
 
 .bdr-danger {
-    border: var(--bdr-danger);
+    border-color: var(--bdr-danger);
 }
 
 
@@ -469,9 +469,12 @@ button.close {
     font-size: 18px;
 }
 
+[class$="cell"] {
+    padding: 10px;
+}
+
 .hcell {
     display: var(--tcell);
-    padding: 0 10px;
     text-align: center;
 }
 
@@ -481,12 +484,12 @@ button.close {
 
 .trow {
     display: var(--trow);
-    padding: 10px;
+    padding: 5px 10px;
     text-align: center;
 }
 
 .bcell {
-    display: var(--trow-grp);
+    display: var(--tcell);
     text-align: center;
 }
 
@@ -498,7 +501,6 @@ button.close {
 
 .fcell {
     display: var(--tcell);
-    padding: 10px;
     text-align: center;
 }
 
